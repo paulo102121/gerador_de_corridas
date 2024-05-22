@@ -1,0 +1,26 @@
+php artisan tink
+Psy Shell v0.12.3 (PHP 8.1.28 — cli) by Justin Hileman
+> DB::select('select * from migrations');
+= [
+    {#4998
+      +"id": 1,
+      +"migration": "2019_12_14_000001_create_personal_access_tokens_table",
+      +"batch": 1,
+    },
+    {#4999
+      +"id": 2,
+      +"migration": "2024_05_22_094421_create_contas_table",
+      +"batch": 1,
+    },
+    {#5000
+      +"id": 3,
+      +"migration": "2024_05_22_094621_create_corridas_table",
+      +"batch": 1,
+    },
+    {#5001
+      +"id": 4,
+      +"migration": "2024_05_22_094822_create_users_table",
+      +"batch": 1,
+    },
+  ]
+
