@@ -18,6 +18,7 @@ Foi desenvolvido com o uso do framework Laravel, para demonstração de geraçã
 ## Teste Unitário
 
 Para testes unitários foi adicionado phpunit e tinker no composer. É possivel obter respostas de API também usando o Postman ou similar
+Caso queira usar o Postman, importe o documento que esta na raiz do aplicativo (Vadetaxi.postman_collection.json)
 
 ## Como Usar Este APlicativo
 
