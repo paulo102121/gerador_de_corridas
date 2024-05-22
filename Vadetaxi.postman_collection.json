@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "8fb2581f-1357-4244-968a-7f43abbf402a",
+		"name": "Vadetaxi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30094301",
+		"_collection_link": "https://speeding-resonance-984957.postman.co/workspace/Desktop~c3dcec50-e11c-47cd-85bf-ec39d9d3e0e8/collection/30094301-8fb2581f-1357-4244-968a-7f43abbf402a?action=share&source=collection_link&creator=30094301"
+	},
+	"item": [
+		{
+			"name": "versaldo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/vadetaxi/public/api/versaldo?user_id=5&obs=null",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"vadetaxi",
+						"public",
+						"api",
+						"versaldo"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "5"
+						},
+						{
+							"key": "obs",
+							"value": "null"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inserirvalor",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/vadetaxi/public/api/inserirvalor?valor=19&user_id=5&obs=null",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"vadetaxi",
+						"public",
+						"api",
+						"inserirvalor"
+					],
+					"query": [
+						{
+							"key": "valor",
+							"value": "19"
+						},
+						{
+							"key": "user_id",
+							"value": "5"
+						},
+						{
+							"key": "obs",
+							"value": "null"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "userhassaldo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/vadetaxi/public/api/cancelarcorrida?id=5&obs=Fim da viagem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"vadetaxi",
+						"public",
+						"api",
+						"cancelarcorrida"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						},
+						{
+							"key": "obs",
+							"value": "Fim da viagem"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cancelarcorrida",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/vadetaxi/public/api/cancelarcorrida?id=5&obs=Fim da viagem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"vadetaxi",
+						"public",
+						"api",
+						"cancelarcorrida"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						},
+						{
+							"key": "obs",
+							"value": "Fim da viagem"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "criarcorrida",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/vadetaxi/public/api/criarcorrida?valor=19&user_id=5&obs=null",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"vadetaxi",
+						"public",
+						"api",
+						"criarcorrida"
+					],
+					"query": [
+						{
+							"key": "valor",
+							"value": "19"
+						},
+						{
+							"key": "user_id",
+							"value": "5"
+						},
+						{
+							"key": "obs",
+							"value": "null"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "criarcorrida Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/vadetaxi/public/api/criarcorrida?valor=19&user_id=5&obs=null",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"vadetaxi",
+						"public",
+						"api",
+						"criarcorrida"
+					],
+					"query": [
+						{
+							"key": "valor",
+							"value": "19"
+						},
+						{
+							"key": "user_id",
+							"value": "5"
+						},
+						{
+							"key": "obs",
+							"value": "null"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InserirUsuario",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/vadetaxi/public/api/inserirusuario?name=Paulo Sergio&email=paulovinteeum@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"vadetaxi",
+						"public",
+						"api",
+						"inserirusuario"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Paulo Sergio"
+						},
+						{
+							"key": "email",
+							"value": "paulovinteeum@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
